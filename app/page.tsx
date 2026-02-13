@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <>
       <Wrapper>
-        <div className="py-20 mx-auto text-center flex flex-col items-center max-w-3xl">
+        <div className="py-30 mx-auto text-center flex flex-col items-center max-w-3xl">
           <h1 className="tracking-tight text-4xl font-semibold md:text-5xl xl:text-5xl">
             Your marketplace for high quality{" "}
             <span className="text-primary">digital assets</span>.
