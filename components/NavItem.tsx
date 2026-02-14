@@ -26,7 +26,7 @@ export const NavItem = ({
     <div className="flex">
       <div className="relative flex items-center">
         <Button
-          className="gap-1.5"
+          className="gap-1.5 cursor-pointer"
           onClick={handleOpen}
           variant={isOpen ? "secondary" : "ghost"}
         >
@@ -69,7 +69,7 @@ export const NavItem = ({
                       </div>
                       <Link
                         href={item.href}
-                        className="mt-6 block font-medium text-muted-foreground"
+                        className="mt-6 block font-medium text-foreground"
                       >
                         {item.name}
                       </Link>
